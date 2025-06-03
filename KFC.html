@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KFC Bangladesh </title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Sticky Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">KFC</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#order">Order</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="darkToggle">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Breadcrumb Navigation -->
+  <div class="breadcrumbs">
+    <p>Home > Menu > Chicken Bucket</p>
+  </div>
+
+  
+ <!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <h1 class="brand-name">KFC</h1>
+        
+        <div class="hero-text">
+          <h2>Dive into Delights</h2>
+          <h3>Of Delectable Food</h3>
+          <p class="hero-description">
+            Where Each Plate Weaves a Story of Culinary<br>
+            Mastery and Passionate Craftsmanship
+          </p>
+        </div>
+        
+        <div class="hero-actions">
+          <button class="cta">Order Now</button>
+        </div>
+        
+       <div class="price-display">
+          <h4>Order Item</h4>
+          <ul class="price-list">
+            <li>4.6  0.5</li>
+            <li>18.60</li>
+            <li class="divider"></li>
+            <li>Weighted or added</li>
+            <li>23.00</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="hero-image">
+                <img src="https://t3.ftcdn.net/jpg/05/41/62/96/360_F_541629636_RlfZtQI6uIOW9Uj52x6HpczOlFNVps4L.jpg" alt="KFC delicious food" class="food-image">
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+<section id="menu" class="menu-section">
+    <div class="menu-header">
+      <h1>MENU</h1>
+      <p class="delivery-info">Delivery & Pick up now available</p>
+    </div>
+  
+    
+
+  
+  <!-- Menu Items (Responsive Grid Cards) -->
+  <div class="menu-items-container">
+    <div class="menu-items">
+      
+      <!-- CHICKEN PIECES Section -->
+      <div class="menu-category active">
+        <h3>CHICKEN PIECES</h3>
+        <div class="menu-grid">
+          <div class="menu-card">
+            <img src="https://copykat.com/wp-content/uploads/2021/07/KFC-Fried-Chicken-Pin-1.jpg" alt="21 PC BUCKET">
+            <div class="menu-details">
+              <h4>21 PC BUCKET</h4>
+              <p class="item-price">Tk3800.00</p>
+            </div>
+          </div>
+          <div class="menu-card">
+            <img src="https://copykat.com/wp-content/uploads/2021/07/KFC-Fried-Chicken-Pin-1.jpg" alt="18 PC BUCKET">
+            <div class="menu-details">
+              <h4>18 PC BUCKET</h4>
+              <p class="item-price">Tk3250.00</p>
+            </div>
+          </div>
+          <div class="menu-card">
+            <img src="https://copykat.com/wp-content/uploads/2021/07/KFC-Fried-Chicken-Pin-1.jpg" alt="15 PC BUCKET">
+            <div class="menu-details">
+              <h4>15 PC BUCKET</h4>
+              <p class="item-price">Tk2800.00</p>
+            </div>
+          </div>
+          <div class="menu-card">
+            <img src="https://copykat.com/wp-content/uploads/2021/07/KFC-Fried-Chicken-Pin-1.jpg" alt="12 PC BUCKET">
+            <div class="menu-details">
+              <h4>12 PC BUCKET</h4>
+              <p class="item-price">Tk2450.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- BURGERS Section -->
+      <div class="menu-category">
+        <h3>BURGERS</h3>
+        <div class="menu-grid">
+          <div class="menu-card">
+            <img src="https://www.allrecipes.com/thmb/5JVfA7MxfTUPfRerQMdF-nGKsLY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/25473-the-perfect-basic-burger-DDMFS-4x3-56eaba3833fd4a26a82755bcd0be0c54.jpg" alt="Zinger Burger">
+            <div class="menu-details">
+              <h4>ZINGER BURGER</h4>
+              <p class="item-price">Tk750.00</p>
+            </div>
+          </div>
+          <div class="menu-card">
+            <img src="https://www.allrecipes.com/thmb/5JVfA7MxfTUPfRerQMdF-nGKsLY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/25473-the-perfect-basic-burger-DDMFS-4x3-56eaba3833fd4a26a82755bcd0be0c54.jpg" alt="Double Chicken Burger">
+            <div class="menu-details">
+              <h4>DOUBLE CHICKEN BURGER</h4>
+              <p class="item-price">Tk950.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!-- Drinks Section -->
+  <div class="menu-category active">
+    <h3>DRINKS</h3>
+    <div class="menu-grid">
+      <div class="menu-card">
+        <img src="https://i.pinimg.com/474x/94/40/0c/94400cf2edce440ce3351766499c8190.jpg" alt="KRUSHERS">
+        <div class="menu-details">
+          <h4>KRUSHERS</h4>
+          <p class="item-price">Tk800.00</p>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img src="https://i.pinimg.com/474x/94/40/0c/94400cf2edce440ce3351766499c8190.jpg" alt="KRUSHERS Passion">
+        <div class="menu-details">
+          <h4>KRUSHERS Passion</h4>
+          <p class="item-price">Tk 1800.00</p>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img src="https://ik.imagekit.io/wcyvhkbdjw4r/Dial_A_Drink/dial_products/coke_O4ezu53k7.jpg" alt="Coke">
+        <div class="menu-details">
+          <h4>Coke</h4>
+          <p class="item-price">Tk800.00</p>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img src="https://p.kindpng.com/picc/s/266-2668723_kfc-zimbabwe-oreo-krusher-cookies-and-cream-krusher.png" alt="OREO">
+        <div class="menu-details">
+          <h4>OREO</h4>
+          <p class="item-price">Tk1450.00</p>
+        </div>
+      </div>
+    </div>
+  </div>
+      <!-- Add more categories here in same structure -->
+      
+    </div>
+  </div>
+  
+  
+
+  <section class="menu-items"> 
+    <div class="menu-header">
+      <h2>Standout Dishes</h2>
+    </div>
+    
+    <div class="item-grid">
+      <div class="item">
+        <img src="https://copykat.com/wp-content/uploads/2021/07/KFC-Fried-Chicken-Pin-1.jpg" alt="Spicy Chicken" />
+        <div class="item-details">
+          <p class="item-name">Spicy Chicken Bucket</p>
+          <p class="item-price">Tk240</p>
+        </div>
+        <div class="item-actions">
+          <button class="quick-add">Quick Add</button>
+          <button class="customize">Customize</button>
+        </div>
+      </div>
+  
+      <div class="item">
+        <img src="https://www.allrecipes.com/thmb/5JVfA7MxfTUPfRerQMdF-nGKsLY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/25473-the-perfect-basic-burger-DDMFS-4x3-56eaba3833fd4a26a82755bcd0be0c54.jpg" alt="Zinger Burger">
+        <div class="item-details">
+          <p class="item-name">Zinger Burger</p>
+          <p class="item-price">Tk230</p>
+        </div>
+        <div class="item-actions">
+          <button class="quick-add">Quick Add</button>
+          <button class="customize">Customize</button>
+        </div>
+      </div>
+  
+      <div class="item">
+        <img src="https://www.thesun.co.uk/wp-content/uploads/2023/10/image-359.png?strip=all&w=620" alt="Golden Fries">
+        <div class="item-details">
+          <p class="item-name">Golden Fries</p>
+          <p class="item-price">Tk500</p>
+        </div>
+        <div class="item-actions">
+          <button class="quick-add">Quick Add</button>
+          <button class="customize">Customize</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <!-- Order Tracker -->
+  <section id="order" class="tracker">
+    <h2>Your Order Status</h2>
+    <div class="progress-bar">
+      <div class="step" data-status="order-placed">Order Placed</div>
+      <div class="step" data-status="preparing">Preparing</div>
+      <div class="step" data-status="out-for-delivery">Out for Delivery</div>
+      <div class="step" data-status="delivered">Delivered</div>
+    </div>
+    <button id="startOrderBtn" class="order-button">Start New Order</button>
+  </section>
+
+  <!-- Testimonials & Loyalty Section -->
+<section id="about" class="loyalty">
+  <h2>What Our Customers Say</h2>
+  <div class="testimonial-card">
+      <p class="testimonial-text">"Always fresh, always tasty!"</p>
+      <p class="testimonial-author">- Alex</p>
+  </div>
+  <div class="points-card">
+      <h3>Loyalty Points</h3>
+      <div class="points-value">1200</div>
+  </div>
+</section>
+
+  <!-- Spin the Bucket Game -->
+  <section class="game">
+    <h2>Spin the Bucket</h2>
+    <button id="spinBucket">Spin</button>
+    <div id="result"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 KFC Bangladesh. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Live Chatbot Icon -->
+  <div class="chatbot">💬</div>
+</body>
+</html>
